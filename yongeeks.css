@@ -59,14 +59,117 @@ div>div>img {
     margin-bottom: 10px;
 }
 
-.me {
+#전공별 {
+    overflow-x: scroll;
+    white-space: nowrap;
+}
+
+.major1 {
+    background: url(기계.jpg);
+    background-size: cover;
+    width: 200px;
+    height: 200px;
     float: left;
     margin: 20px;
 }
+.major1:hover .text {
+    opacity: 0.8;
+    text-align: center;
+    color: royalblue;
+}
 
-.last {
+.major2 {
+    background: url(전전.jpg);
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+    float: left;
     margin: 20px;
 }
+.major2:hover .text {
+    opacity: 0.8;
+    text-align: center;
+    color: royalblue;
+}
+
+.major3 {
+    background: url(컴과.jpg);
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+    float: left;
+    margin: 20px;
+}
+.major3:hover .text {
+    opacity: 0.8;
+    text-align: center;
+    color: royalblue;
+}
+
+.major4 {
+    background: url(산공.jpg);
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+    float: left;
+    margin: 20px;
+}
+.major4:hover .text {
+    opacity: 0.8;
+    text-align: center;
+    color: royalblue;
+}
+
+.major5 {
+    background: url(화공.jpg);
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+    float: left;
+    margin: 20px;
+}
+.major5:hover .text {
+    opacity: 0.8;
+    text-align: center;
+    color: royalblue;
+}
+
+.major6 {
+    background: url(토목.jpg);
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+    float: left;
+    margin: 20px;
+}
+.major6:hover .text {
+    opacity: 0.8;
+    text-align: center;
+    color: royalblue;
+}
+
+.major7 {
+    background: url(건축.jpg);
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+}
+.major7:hover .text {
+    opacity: 0.8;
+    text-align: center;
+    color: royalblue;
+}
+
+.text {
+    background: white;
+    opacity: 0;
+    width: 200px;
+    height: 100px;
+    padding-top: 50px;
+}
+
+
 
 h2 {
     padding-top: 50px;
@@ -78,10 +181,7 @@ footer {
     height: 50px;
 }
 
-#전공별 {
-    overflow-x: scroll;
-    white-space: nowrap;
-}
+
 
 .nwy {
     margin-top: 30px;
