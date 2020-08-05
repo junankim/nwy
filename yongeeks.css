@@ -28,8 +28,8 @@
 }
 
 .logo {
-    width: 400px;
-    height: 300px;
+    width: 440px;
+    height: 330px;
 }
 
 .wrap {
@@ -43,7 +43,7 @@
 .main {
     margin-top: 10px;
     float: left;
-    color: rgb(228, 77, 120);
+    color: black;
     font-family: 'Do Hyeon', sans-serif;
     font-size: 1.5rem;
     line-height: 0.8;
@@ -223,7 +223,7 @@ h2 {
 
 .footer {
     height: 100px;
-    background: linear-gradient(to right, rgba(164, 33, 175, 0.2) 0%, rgb(248, 249, 254) 100%);
+    background-color: rgb(248, 249, 254);
     text-align: center;
     font-size: 15px;
     padding-top: 40px;
