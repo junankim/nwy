@@ -46,11 +46,10 @@
 
 }
 
+#전공별 {
+    overflow-x: hidden;
+    background: linear-gradient(to right, rgba(29, 102, 41, 0.295) 0%,rgb(248, 249, 254) 100%);
 
-
-input {
-    width: 200px;
-    height: 200px;
 }
 
 div>div>img {
@@ -59,16 +58,12 @@ div>div>img {
     margin-bottom: 10px;
 }
 
-#전공별 {
-    overflow-x: scroll;
-    white-space: nowrap;
-}
-
 .major1 {
     background: url(기계.jpg);
     background-size: cover;
     width: 200px;
     height: 200px;
+    border-radius: 20%;
     float: left;
     margin: 20px;
 }
@@ -83,6 +78,7 @@ div>div>img {
     background-size: cover;
     width: 200px;
     height: 200px;
+    border-radius: 20%;
     float: left;
     margin: 20px;
 }
@@ -97,6 +93,7 @@ div>div>img {
     background-size: cover;
     width: 200px;
     height: 200px;
+    border-radius: 20%;
     float: left;
     margin: 20px;
 }
@@ -111,6 +108,7 @@ div>div>img {
     background-size: cover;
     width: 200px;
     height: 200px;
+    border-radius: 20%;
     float: left;
     margin: 20px;
 }
@@ -125,6 +123,7 @@ div>div>img {
     background-size: cover;
     width: 200px;
     height: 200px;
+    border-radius: 20%;
     float: left;
     margin: 20px;
 }
@@ -139,6 +138,7 @@ div>div>img {
     background-size: cover;
     width: 200px;
     height: 200px;
+    border-radius: 20%;
     float: left;
     margin: 20px;
 }
@@ -153,9 +153,26 @@ div>div>img {
     background-size: cover;
     width: 200px;
     height: 200px;
+    border-radius: 20%;
+    float: left;
     margin: 20px;
 }
 .major7:hover .text {
+    opacity: 0.8;
+    text-align: center;
+    color: royalblue;
+}
+
+.major8 {
+    background: url(산공.jpg);
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+    border-radius: 20%;
+    float: left;
+    margin: 20px;
+}
+.major8:hover .text {
     opacity: 0.8;
     text-align: center;
     color: royalblue;
@@ -166,21 +183,34 @@ div>div>img {
     opacity: 0;
     width: 200px;
     height: 100px;
-    padding-top: 50px;
+    border-radius: 5%;
+    padding-top: 55px;
 }
 
 
 
 h2 {
     padding-top: 50px;
-    margin-left: 30px;
+    padding-bottom: 30px;
+    padding-left: 30px;
     font-family: 'Do Hyeon', sans-serif;
 }
 
-footer {
-    height: 50px;
+.explain {
+    margin-left: 30px;
+    font-size: 15pt;
+    font-family: 'Roboto Mono', 'Do Hyeon';
 }
 
+
+.footer {
+    height: 100px;
+    background: linear-gradient(to right, rgba(164,33,175,0.2) 0%,rgb(248, 249, 254) 100%);
+    text-align: center;
+    font-size: 15px;
+    padding-top: 60px;
+    font-family: 'Gugi', cursive;
+}
 
 
 .nwy {
@@ -189,4 +219,9 @@ footer {
     height: 180px;
     width: 320px;
     float: left;
+}
+
+#사용방법 {
+    background: linear-gradient(to right, rgba(65, 93, 216, 0.295) 0%,rgb(248, 249, 254) 100%);
+
 }
