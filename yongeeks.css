@@ -1,3 +1,20 @@
+.nav {
+    position: fixed;
+    background: linear-gradient(to bottom, rgb(248, 249, 254), white);
+    width: 100%;
+    color: rgb(49, 127, 176);
+    font-family: 'Gugi', cursive;
+    margin-left: 10px;
+    display: grid;
+    grid-template-columns: 12fr 1fr 1fr 1fr;
+}
+
+.navtitle {
+    width: fit-content;
+    float: left;
+}
+
+
 .title {
     height: 200px;
     text-align: center;
@@ -6,11 +23,9 @@
     margin-top: 0;
     font-size: 7rem;
     color: rgb(49, 127, 176);
-    background-color: rgb(248, 249, 254);
+    background: linear-gradient(to top, rgb(248, 249, 254), white);
     font-family: 'Gugi', cursive;
 }
-
-
 
 .logo {
     width: 400px;
@@ -34,8 +49,6 @@
     line-height: 0.8;
 }
 
-
-
 .page2 {
     margin-top: 50px;
     display: grid;
@@ -46,12 +59,12 @@
 
 }
 
-#전공별 {
+#projects {
     overflow-x: hidden;
 
 }
 
-div>div>img {
+div>div>a>img {
     width: 100px;
     height: 100px;
     margin-bottom: 10px;
@@ -66,6 +79,7 @@ div>div>img {
     float: left;
     margin: 20px;
 }
+
 .major1:hover .text {
     opacity: 0.8;
     text-align: center;
@@ -81,6 +95,7 @@ div>div>img {
     float: left;
     margin: 20px;
 }
+
 .major2:hover .text {
     opacity: 0.8;
     text-align: center;
@@ -96,6 +111,7 @@ div>div>img {
     float: left;
     margin: 20px;
 }
+
 .major3:hover .text {
     opacity: 0.8;
     text-align: center;
@@ -111,6 +127,7 @@ div>div>img {
     float: left;
     margin: 20px;
 }
+
 .major4:hover .text {
     opacity: 0.8;
     text-align: center;
@@ -126,6 +143,7 @@ div>div>img {
     float: left;
     margin: 20px;
 }
+
 .major5:hover .text {
     opacity: 0.8;
     text-align: center;
@@ -141,6 +159,7 @@ div>div>img {
     float: left;
     margin: 20px;
 }
+
 .major6:hover .text {
     opacity: 0.8;
     text-align: center;
@@ -156,6 +175,7 @@ div>div>img {
     float: left;
     margin: 20px;
 }
+
 .major7:hover .text {
     opacity: 0.8;
     text-align: center;
@@ -171,6 +191,7 @@ div>div>img {
     float: left;
     margin: 20px;
 }
+
 .major8:hover .text {
     opacity: 0.8;
     text-align: center;
@@ -184,33 +205,31 @@ div>div>img {
     height: 100px;
     border-radius: 5%;
     padding-top: 55px;
+    font-family: 'Do Hyeon';
 }
 
-
-
 h2 {
-    padding-top: 50px;
+    padding-top: 70px;
     padding-bottom: 30px;
     padding-left: 30px;
-    font-family: 'Do Hyeon', sans-serif;
 }
 
 .explain {
     margin-left: 30px;
     font-size: 15pt;
-    font-family: 'Roboto Mono', 'Do Hyeon';
+    font-family: 'Roboto Mono', 'NanumGothic';
+    font-weight: 400;
 }
-
 
 .footer {
     height: 100px;
-    background: linear-gradient(to right, rgba(164,33,175,0.2) 0%,rgb(248, 249, 254) 100%);
+    background: linear-gradient(to right, rgba(164, 33, 175, 0.2) 0%, rgb(248, 249, 254) 100%);
     text-align: center;
     font-size: 15px;
-    padding-top: 60px;
-    font-family: 'Gugi', cursive;
+    padding-top: 40px;
+    padding-bottom: 30px;
+    font-family: 'Gugi', 'cursive';
 }
-
 
 .nwy {
     margin-top: 30px;
@@ -220,3 +239,6 @@ h2 {
     float: left;
 }
 
+.us {
+    margin-top: 30px;
+}

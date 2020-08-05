@@ -30,11 +30,33 @@
             text-decoration: none;
             color: black;
         }
+
+        body {
+            margin: 0;
+            padding: 0;
+        }
     </style>
 
 </head>
 
 <body>
+    <nav class="nav">
+        <h4 class="navtitle">
+            <a href="yongeeks.html">
+                yongeeks
+            </a>
+        </h4>
+        <h4>
+            log-in
+        </h4>
+        <h4>
+            sign-up
+        </h4>
+        <h4>
+            my-page
+        </h4>
+    </nav>
+
     <a href="yongeeks.html">
         <h1 class="title">yongeeks</h1>
     </a>
@@ -56,36 +78,34 @@
             <img align="center" class="logo" src="error.jpg" alt="Logo">
         </div>
 
-
-
     </div>
 
 
     <div class="page2">
         <div>
-            <img align="center" src="전공별.jpg" alt="전공별프로젝트">
-            <a href="#전공별" style="text-decoration:none">
+            <a href="#projects" style="text-decoration:none">
+                <img align="center" src="전공별.jpg" alt="전공별프로젝트">
                 <div>Projects</div>
             </a>
         </div>
 
         <div>
-            <img align="center" src="사용방법.jpg" alt="사용방법">
-            <a href="#사용방법" style="text-decoration:none">
+            <a href="#howto" style="text-decoration:none">
+                <img align="center" src="사용방법.jpg" alt="사용방법">
                 <div>How to</div>
             </a>
         </div>
 
         <div>
-            <img align="center" src="우리.jpg" alt="About US">
             <a href="#aboutus" style="text-decoration:none">
+                <img align="center" src="우리.jpg" alt="About US">
                 <div>About US</div>
             </a>
         </div>
 
     </div>
 
-    <h2 id="전공별">전공별 프로젝트
+    <h2 id="projects">전공별 프로젝트
         <div>
             <div class="major1">
                 <p class="text">
@@ -140,19 +160,20 @@
 
     </h2>
 
-    <h2 id="사용방법">사용방법
+    <h2 id="howto">사용방법
         <div class="explain">
             <p>
                 we build an open platform for engineering major students.
-                <br>우리는 공대생들을 위한 오픈 플랫폼을 만듭니다. 
+                <br>우리는 공대생들을 위한 오픈 플랫폼을 만듭니다.
             </p>
             <p>
                 users can post their term projects for public purpose, and you can also make some money for your work.
                 <br>사용자는 프로젝트를 자유롭게 포스팅해서 모두를 돕거나, 수익을 창출할 수 있습니다.
             </p>
             <p>
-                this post includes hardware parts, codes, instructions for open source programs, and even tips for their classes.
-                <br>이 포스트는 하드웨어 부품에 대한 정보, 입력 코드, 오픈소스 프로그램의 사용방법과 수업에 관한 정보등을 공유합니다. 
+                this post includes hardware parts, codes, instructions for open source programs, and even tips for their
+                classes.
+                <br>이 포스트는 하드웨어 부품에 대한 정보, 입력 코드, 오픈소스 프로그램의 사용방법과 수업에 관한 정보등을 공유합니다.
             </p>
         </div>
 
@@ -162,7 +183,7 @@
         <div>
             <img class="nwy" src="nwy.jpg" alt="로고">
         </div>
-        <div>
+        <div class="us" style="font-family: 'NanumGothic'; font-weight: 400; font-size: 15pt;">
             <p>
                 (~2012) 세 명 모두 분당에 있는 내정중학교를 졸업했습니다.
             </p>
@@ -183,11 +204,17 @@
     <footer>
         <div class="footer">
             <p>
-                @copyrights at NWY Co. all rights reserved.
+                copyrights @NWY Co. all rights reserved.
             </p>
-            <p style="font-family: 'Do Hyeon', sans-serif;">
-                대표 김준환 이사 임도윤, 임장현
+            <p style="font-family: 'NanumGothic'; font-weight: 600; line-height: 2;">
+                대표자: 김준환
+                <br>대표 연락처: nwy@yonsei.ac.kr
             </p>
         </div>
 
     </footer>
+    <script src="yongeeks.js"></script>
+
+</body>
+
+</html>
