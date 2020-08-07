@@ -4,7 +4,6 @@
     width: 100%;
     color: rgb(49, 127, 176);
     font-family: 'Gugi', cursive;
-    margin-left: 10px;
     display: grid;
     grid-template-columns: 12fr 1fr 1fr 1fr;
 }
@@ -12,6 +11,7 @@
 .navtitle {
     width: fit-content;
     float: left;
+    margin-left: 10px;
 }
 
 
